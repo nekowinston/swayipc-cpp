@@ -78,7 +78,7 @@ struct window_properties_s {
     std::string instance;
     std::string window_role;
     std::string window_type;
-    std::string transient_for;
+    int transient_for;
 };
 JSON_TYPE_HEADER(window_properties_s)
 
